@@ -1,12 +1,14 @@
 *{
-    width: 100%;
-    padding: 0%;
+    
+    padding: 0;
     margin: 0;
     font-size: 16px;
     font-family: "Source Sans Pro", "sans-serif";
 }
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900");
+
+/* HEADER */
 
 header .nav{
     width: 100%;
@@ -15,10 +17,42 @@ header .nav{
     border-bottom: 1px solid #552955;
     border-radius: 22%;
     box-shadow: 1px 2px  2px;
+    display: flex;
+    justify-content: space-between;
 
 }
 
  .logo {
     width: 100px;
     height: 35px;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+}
+
+.headermargin {
+    width: 90%;
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu a {
+    font-size: 10px;
+    margin: 20px;
+    color: #525252;
+    text-decoration: none;
+}
+
+.nav i {
+    display: none;
+}
+
+#content {
+    display: none;
 }

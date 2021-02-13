@@ -1,0 +1,74 @@
+@media screen and (max-width:425px)
+{
+    .menu{
+        display: none;
+    }
+    .nav i {
+        display: block;
+        cursor: pointer;
+    }
+
+     .logo {
+         display: flex;
+         justify-content: center;
+         margin: 0 auto;
+     }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .responav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-image: url(/img/bgburger.png);
+        background-repeat: no-repeat;
+        background-size: 400px 600px;
+        overflow-x: hidden;
+        padding-top: 63px;
+        transition: 0.7s;
+    }
+
+    .responav a {
+        display: block;
+        padding: 15px 25px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #ccc;
+        
+        
+    }
+
+    .responav a:hover {
+        color: #fff;
+        transition: 0.4s;
+    }
+
+    .responav .close {
+        /* position: absolute; */
+        /* top: -20px; */
+        /* right: 22px; */
+        margin-left: 340px; 
+        font-size: 20px;
+    }
+
+    .slide a {
+        font-size: 16px;
+        
+    }
+
+    #content {
+        display:block;
+        padding: 10px;
+        transition: margin-left 0.7s;
+        overflow: hidden;
+        width: 100%;
+    }
+
+
+}
