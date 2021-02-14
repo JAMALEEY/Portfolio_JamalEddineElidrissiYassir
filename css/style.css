@@ -98,3 +98,9 @@ header .nav{
     bottom: 16%;
     right: 46%;
 }
+
+.arrowdown:hover{
+opacity: 50%;
+
+
+}
