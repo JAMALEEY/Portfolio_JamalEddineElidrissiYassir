@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- link mediaquery -->
     <link rel="stylesheet" href="responsivity/375.css">
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <!-- link hamburger -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
@@ -48,20 +50,20 @@
         <i class="fas fa-times">
         </i>.
       </a>
-      <a href="#">Accueil</a>
-      <a href="#">Portfolio</a>
-      <a href="#">À&nbsp;propos</a>
-      <a href="#">Contact</a>
+      <a href="#Accueil"onclick="closeSlideMenu()">Accueil</a>
+      <a href="#Portfolio" onclick="closeSlideMenu()"> Portfolio</a>
+      <a href="#me"onclick="closeSlideMenu()">À&nbsp;propos</a>
+      <a href="#Contact"onclick="closeSlideMenu()">Contact</a>
     </div>
   </div>
 
           <!-- logo -->
         <img class="logo" src="img/logo.png" alt="Logo" />
 					<ul class="menu">
-						<li><a href="#intro"> Accueil</a></li>
+						<li><a href="#Accueil"> Accueil</a></li>
 						<li><a href="#Portfolio">Portfolio</a></li>
-						<li><a href="#two">&#192;&#160;propos</a></li>
-						<li><a href="#work">Contact</a></li>
+						<li><a href="#me">&#192;&#160;propos</a></li>
+						<li><a href="#Contact">Contact</a></li>
 					</ul>
           
         </div>
@@ -79,7 +81,7 @@
                   <img class="arrowdown" src="img/arrowdown.svg" alt="arrowdowngotoportfolio">
                 </a> </div>
          </section>
-         
+         <div id="Portfolio">
          <section id="sectionune" class="portfolio">
 				<div class="container">
           <header>
@@ -90,26 +92,31 @@
         </div>
         <div class="projectscontainer">
           <div class="myportfolio"> 
-          <div class="project1">
+          <div class="project1" data-aos="fade-right">
+           
 <a class="image1">  <img class="img1" src="/img/project1.png" alt="firstproject">
   </a>
           </div>
-          <div class="project2">
-
+          <div class="project2"data-aos="fade-left">
+<a class="image2">  <img class="img2" src="/img/project2.png" alt="secondproject">
+  </a>
           </div>
-          <div class="project3">
-
+          <div class="project3"data-aos="fade-right">
+<a class="image3">  <img class="img3" src="/img/project3.png" alt="thirdproject">
+  </a>
           </div>
-          <div class="project4">
-
+          <div class="project4"data-aos="fade-left">
+<a class="image4">  <img class="img4" src="/img/project4.png" alt="fourthproject">
+  </a>
           </div>
           </div>
         </div>
 
 
         </section>
-        
-        
+        </div>
+
+      
 
 
         
@@ -117,5 +124,17 @@
     </header>
 
     </main>
+
+<!-- aos -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  // hna kan customisiw the fade li drna
+  AOS.init(
+    {
+      offset: 100,
+      duration: 900
+    }
+  );
+  </script>
   </body>
 </html>
