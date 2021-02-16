@@ -119,6 +119,11 @@
     
 }
 
-
+.buttonnext {
+    display: flex;
+    justify-content: center;
+    height: 44px;
+    margin-top: 10px;
+}
 
 }
