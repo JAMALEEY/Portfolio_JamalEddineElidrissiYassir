@@ -471,7 +471,9 @@ textarea{
     grid-row: 2;
     color: #797F83;
     text-transform: uppercase;
+    align-self: center;
     justify-self: end;
+    font-size: 10px;
 }
 
 @keyframes tapper {
