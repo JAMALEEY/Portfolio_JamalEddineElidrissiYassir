@@ -379,7 +379,7 @@ a.a1, a.a2, a.a3, a.a4{
         grid-row: 2;
         border: solid 1px #858585;
         background-color: white;
-        GRID-TEMPLATE-ROWS: 15% 5% 1% 8% 1% 10% 10% 10% 10% 10% 5% 5% 5% 5%;
+        GRID-TEMPLATE-ROWS: 15% 5% 1% 8% 1% 10% 2% 8% 10% 10% 10% 5% 5% 5% 5%;
         GRID-TEMPLATE-COLUMNS: 5% 10% 10% 10% 10% 10% 10% 10% 10% 10% 5%;
 }
 
@@ -413,6 +413,22 @@ a.a1, a.a2, a.a3, a.a4{
     grid-row: 4;
     background-color: rgb(255, 255, 255);
 }
+.three{
+    display: grid;
+    height: 10px;
+    grid-column: 2/11;
+    align-self: center;
+    grid-row: 6;
+    background-color: rgb(255, 255, 255);
+    }
+.four {
+        display: grid;
+        height: 100%;
+        grid-column: 2/11;
+        grid-row: 8/10;
+        background-color: rgb(255, 255, 255);
+
+    }
 
 
 input {
@@ -421,6 +437,14 @@ color: #666;
 font-size: 7px;
 border: 1px solid #666;
 outline: none;
+}
+
+textarea{
+    padding: 5px;
+    color: #666;
+    font-size: 7px;
+    border: 1px solid #666;
+    outline: none;
 }
 
 .footer{
