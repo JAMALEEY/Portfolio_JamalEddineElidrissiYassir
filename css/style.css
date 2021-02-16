@@ -398,17 +398,29 @@ a.a1, a.a2, a.a3, a.a4{
 
 .one{
     display: grid;
-    height: 25px;
+    height: 10px;
     grid-column: 2/6;
     align-self: center;
     grid-row: 4;
     background-color: rgb(255, 255, 255);
 }
 
+.two {
+    display: grid;
+    height: 10px;
+    grid-column: 7/11;
+    align-self: center;
+    grid-row: 4;
+    background-color: rgb(255, 255, 255);
+}
 
-input .one::placeholder{
 
-color: black;
+input {
+padding: 5px;
+color: #666;
+font-size: 7px;
+border: 1px solid #666;
+outline: none;
 }
 
 .footer{
