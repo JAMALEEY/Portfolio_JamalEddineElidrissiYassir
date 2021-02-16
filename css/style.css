@@ -460,6 +460,9 @@ textarea{
 .footer{
     height: 30px;
     background-color:#39454B;
+    display: grid;
+    grid-template-rows: 5% 90% 5%;
+    grid-template-columns: 20% 30% 50%;
 }
 
 
