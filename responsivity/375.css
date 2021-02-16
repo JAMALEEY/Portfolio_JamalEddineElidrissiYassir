@@ -115,8 +115,12 @@
 
 .myportfolio {
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
+}
+
+.portfolio {
+    width: 100%;
+    height: 1088px;
 }
 
 .buttonnext {
@@ -124,6 +128,11 @@
     justify-content: center;
     height: 44px;
     margin-top: 10px;
+}
+
+.buttoncontainer {
+    width: 100px;
+    margin: auto;
 }
 
 }
