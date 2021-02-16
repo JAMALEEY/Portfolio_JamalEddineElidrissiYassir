@@ -465,6 +465,14 @@ textarea{
     grid-template-columns: 20% 30% 50%;
 }
 
+.signature{
+    display: grid;
+    grid-column: 3;
+    grid-row: 2;
+    color: #797F83;
+    text-transform: uppercase;
+    justify-self: end;
+}
 
 @keyframes tapper {
     from {
