@@ -316,6 +316,7 @@ opacity: 50%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 100%;
+    align-self: center;
 }
 
 a.a1, a.a2, a.a3, a.a4{
@@ -328,14 +329,15 @@ a.a1, a.a2, a.a3, a.a4{
 
 #Competences {
     background-color: white;
-    height: 380px;
+    height: 222px;
     display: grid;
     margin: auto;
     text-align: center;
     text-transform: uppercase;
     color: #666;
+    grid-template-rows:50% 33% 12%;
     
-   
+    
 }
 #Competences h2 {
     width: 14%;
