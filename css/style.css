@@ -338,7 +338,7 @@ a.a1, a.a2, a.a3, a.a4{
    
 }
 #Competences h2 {
-    width: 14   %;
+    width: 14%;
     overflow: hidden;
     white-space: nowrap;
     animation: tapper 2s steps(100),
