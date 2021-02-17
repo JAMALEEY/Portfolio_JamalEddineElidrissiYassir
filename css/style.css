@@ -269,7 +269,7 @@ opacity: 50%;
 
 
 #me p {
-    margin: auto;
+     
     text-align: center;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
@@ -293,6 +293,7 @@ opacity: 50%;
     background-color: #666;
     height: 236px;
     display: grid;
+    grid-template-rows:50% 33% 12%;
 
 }
 
