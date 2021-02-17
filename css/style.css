@@ -511,4 +511,14 @@ textarea{
     }
 }
 
+@media screen and (max-width:769px)
 
+{
+    .buttoncontainer {
+        height: 124px;
+        display: grid;
+        grid-template-columns: 8fr 1fr 7fr;
+        width: 719px;
+        margin: auto;
+    }
+}
