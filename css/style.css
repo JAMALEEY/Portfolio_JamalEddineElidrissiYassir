@@ -167,12 +167,12 @@ opacity: 50%;
     
    
 
-.buttonnext{
-    
+.buttonnext {
     display: grid;
-    grid-column: 2/3;
-
+    grid-column: 2;
+    justify-self: self-start;
 }
+
 .downn{
     grid-column: 2;
     grid-row: 1;
@@ -185,13 +185,14 @@ opacity: 50%;
     opacity: 50%;
 }
 
-#sectionune{
-    height: 620px;
+#sectionune {
+    height: 766px;
 }
 
 #sectionune p {
     text-align: center;
     text-transform: uppercase;
+    color: #666;
 }
 
 #sectionune h2 {
@@ -213,34 +214,32 @@ opacity: 50%;
 
 
 .imgdaya {
-    background-image: url("../img/daya.gif");
-    height: 236px;
+    background-image: url(../img/daya.gif);
+    height: 439px;
     background-repeat: no-repeat;
 }
 .imgdaya2 {
-    background-image: url("../img/daya.gif");
-    height: 236px;
-    /* transform: rotateY(180deg); */
+    background-image: url(../img/daya.gif);
+    height: 439px;
     background-repeat: no-repeat;
 }
 
-#sectiontwo{
-    
-      height: 236px;
+#sectiontwo {
+    height: 439px;
 }
 
-.buttoncontainer{
-    height: 104px;
+.buttoncontainer {
+    height: 57px;
     display: grid;
     grid-template-columns: 8fr 1fr 7fr;
-    width: 719px;
-    margin: auto;
+    width: 1050px;
 }
+
 .buttoncontainertwo {
     height: 14px;
     display: grid;
-    grid-template-columns: 10fr 1fr 7fr;
-    width: 719px;
+    grid-template-columns: 10fr 3fr 7fr;
+    width: 100%;
 }
 
 .imgwrap{
@@ -264,36 +263,35 @@ opacity: 50%;
 .aboutme p span {
     color: rgb(255, 255, 255);
     font-weight: bold;
+    font-size: 24px;
 }
 
 
 #me p {
-     
     text-align: center;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
+    font-size: 24px;
 }
 
-#me h2{
-    width: 10%;
+#me h2 {
+    font-size: 24px;
+    width: 12%;
     overflow: hidden;
     white-space: nowrap;
-    animation: tapper 2s steps(100),
-    blink .9s infinite;
+    animation: tapper 2s steps(100), blink .9s infinite;
     border-right: 1px solid;
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
     margin: auto;
-   
 }
 
-.aboutme{
+.aboutme {
     background-color: #666;
-    height: 236px;
+    height: 352px;
     display: grid;
-    grid-template-rows:50% 33% 12%;
-
+    grid-template-rows: 50% 33% 12%;
 }
 
 #sectionfour{
@@ -308,7 +306,11 @@ opacity: 50%;
 
 .skills{
     display:grid; 
-    
+}
+
+.skills p{
+font-size: 24px;
+margin: auto;
 }
 
 .competencescontainer{
@@ -328,28 +330,25 @@ a.a1, a.a2, a.a3, a.a4{
 
 #Competences {
     background-color: white;
-    height: 222px;
+    height: 344px;
     display: grid;
     margin: auto;
     text-align: center;
     text-transform: uppercase;
     color: #666;
-    grid-template-rows:50% 33% 12%;
-    
-    
+    grid-template-rows: 50% 33% 12%;
 }
 #Competences h2 {
+    font-size: 24px;
     width: 14%;
     overflow: hidden;
     white-space: nowrap;
-    animation: tapper 2s steps(100),
-        blink .9s infinite;
+    animation: tapper 2s steps(100), blink .9s infinite;
     border-right: 1px solid;
     color: #666;
     text-align: center;
     text-transform: uppercase;
     margin: auto;
-
 }
 
 #sectionsex{
