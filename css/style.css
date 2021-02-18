@@ -46,6 +46,9 @@ header .nav{
     
 }
 
+.music{
+    display: none;
+}
 
 .menu a {
     font-size: 10px;
