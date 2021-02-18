@@ -26,7 +26,7 @@
         z-index: 1;
         top: 0;
         left: 0;
-        background-image: url(/img/bgburger.png);
+        background-image: url(img/bgburger.png);
         background-repeat: no-repeat;
         background-size: 400px 600px;
         overflow-x: hidden;
@@ -71,7 +71,7 @@
         width: 5%;
     }
 #heroimg {
-    background: url("/img/bghero.png");
+    background: url("img/bghero.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
