@@ -606,6 +606,11 @@ textarea{
     margin: auto;
 }
 
+.worktogheter {
+    display: grid;
+    grid-column: 4/10;
+    grid-row: 2;
+}
 .buttonnext {
     align-self: end;
     display: grid;

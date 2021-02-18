@@ -216,7 +216,7 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     align-self: end;
-    height: 35px;}
+}
 
     #Competences h2 {
         width: 45%;
@@ -229,7 +229,7 @@
 
             .worktogheter {
                 display: grid;
-                grid-column: 3/11;
+                grid-column: 2/11;
                 grid-row: 2;
                 justify-self: center;
             }
