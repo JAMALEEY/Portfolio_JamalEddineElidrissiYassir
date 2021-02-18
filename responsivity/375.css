@@ -1,4 +1,4 @@
-@media screen and (max-width:425px)
+@media screen and (max-width:424px)
 {
     .menu{
         display: none;
@@ -26,7 +26,7 @@
         z-index: 1;
         top: 0;
         left: 0;
-        background-image: url(img/bgburger.png);
+        background-image: url(../img/bgburger.png);
         background-repeat: no-repeat;
         background-size: 400px 600px;
         overflow-x: hidden;
@@ -71,14 +71,14 @@
         width: 5%;
     }
 #heroimg {
-    background: url("img/bghero.png");
+    background: url(../img/bghero.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 500px;
+    height: 503px;
     background-position-x: 30%;
-
 }
+
 .peace {
     position: absolute;
     bottom: 30%;
@@ -94,9 +94,8 @@
 }
 
 
-#sectionune{
-  
-    
+#sectionfour {
+    height: 514px;
 }
 
 #sectionune p {
@@ -142,38 +141,46 @@
 }
 
 #sectiontwo {
-    height: 564px;
+    height: 767px;
 }
 
 #me {
     width: auto;
+    height: 283px;
 }
 
 .aboutme {
     width: auto;
-    /* width: 100%; */
     background-color: #666;
-    height: 236px;
+    height: 885px;
     display: grid;
-    grid-template-rows: 20% 10% 10% 10% 33% 12%;
+    grid-template-rows: 10% 5% 13% 13%;
 }
 
+   .aboutme p span {
+       color: rgb(255, 255, 255);
+       font-weight: bold;
+       font-size: 19px;
+   }
+
 #me h2 {
-    width: 25%;
+    width: 30%;
+    /* FONT-SIZE: 10px; */
     color: #ffffff;
-    text-align: center;
+    text-align: END;
     text-transform: uppercase;
-    margin: 0%;
-    grid-row: 2;
+    /* margin: 0%; */
+    grid-row: 1;
     justify-self: center;
 }
+
 
 #me p {
     width: 375px;
     text-align: center;
     text-transform: uppercase;
     color: rgb(255, 255, 255);
-     grid-row: 4;
+    grid-row: 2;
 }
 
 .skills {
@@ -212,7 +219,8 @@
     height: 35px;}
 
     #Competences h2 {
-        width: 31%;}
+        width: 45%;
+    }
 
         .buttonnext {
             display: none;}
