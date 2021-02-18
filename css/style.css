@@ -25,6 +25,11 @@ header .nav{
     position: absolute;
 }
 
+body {
+    cursor: url("../cursor.cur"), auto
+}
+
+
  .logo {
     width: 100px;
     height: 35px;
@@ -609,6 +614,9 @@ textarea{
    
 }
 
+.music {
+    display: none;
+}
 
 }
 
