@@ -400,7 +400,7 @@ a.a1, a.a2, a.a3, a.a4{
 
 .worktogheter{
     display: grid;
-    grid-column: 4/10;
+    grid-column: 5/10;
     grid-row: 2;
    
 }
